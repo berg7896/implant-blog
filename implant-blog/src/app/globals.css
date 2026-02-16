@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800 antialiased;
+  }
+  h1 { @apply text-3xl md:text-4xl font-bold text-brand-primary; }
+  h2 { @apply text-2xl md:text-3xl font-bold text-brand-primary mt-8 mb-4; }
+  h3 { @apply text-xl md:text-2xl font-semibold text-brand-dark mt-6 mb-3; }
+}
+
+/* Blog content styling */
+.blog-content p { @apply text-lg leading-relaxed mb-4 text-gray-700; }
+.blog-content ul { @apply list-disc pl-6 mb-6 space-y-2; }
+.blog-content li { @apply text-lg text-gray-700; }
+.blog-content a { @apply text-brand-secondary underline hover:text-brand-primary transition-colors; }
+.blog-content strong { @apply text-gray-900; }
+.blog-content table { @apply w-full border-collapse mb-6 text-left; }
+.blog-content th { @apply bg-brand-primary text-white px-4 py-3 font-semibold; }
+.blog-content td { @apply border border-gray-200 px-4 py-3; }
+.blog-content tr:nth-child(even) td { @apply bg-gray-50; }
