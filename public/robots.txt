@@ -1,4 +1,3 @@
+# Crawling stays open so Google can see each page's noindex tag. No sitemap on purpose.
 User-agent: *
 Allow: /
-
-Sitemap: https://blog.implantcenterofcoralsprings.com/sitemap.xml
